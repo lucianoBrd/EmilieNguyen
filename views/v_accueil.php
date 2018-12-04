@@ -34,154 +34,45 @@
         <div class="grid-sizer"></div>
 
         <?php
-          /*foreach ($imagesListe as $image) {
-            list($width, $height, $type, $attr) = getimagesize("assets/".$image[0]->getLink());
-            if($width > 4000){
-
-            } else {
-
-            }
-          }*/
+          foreach ($imagesListe as $image) {
+            list($width, $height, $type, $attr) = getimagesize($image[0]->getLink());
+            if($height < $width){
         ?>
         <!-- PORTFOLIO ITEM -->
-        <div class="work-item tall branding">
+        <div class="work-item wide">
           <a href="portfolio-single-1.html">
-            <img src="assets/images/ngy/152500461817015629101949106609.jpg" alt="">
+            <img src="<?=$image[0]->getLink()?>" alt="<?=$image[1]->getPrenom()?>">
             <div class="work-caption font-alt">
-              <h3 class="work-title">Nom modele</h3>
+              <h3 class="work-title"><?=$image[1]->getPrenom().' '.$image[1]->getNom()?></h3>
               <div class="work-descr">
-                Texte
+                <?=$image[0]->getDescription()?>
               </div>
             </div>
           </a>
         </div>
         <!-- /PORTFOLIO ITEM -->
+        <?php
 
+            } else {
+        ?>
         <!-- PORTFOLIO ITEM -->
-        <div class="work-item design">
+        <div class="work-item wide-tall">
           <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-1.jpg" alt="">
+            <img src="<?=$image[0]->getLink()?>" alt="<?=$image[1]->getPrenom()?>">
             <div class="work-caption font-alt">
-              <h3 class="work-title">The languages only</h3>
+              <h3 class="work-title"><?=$image[1]->getPrenom().' '.$image[1]->getNom()?></h3>
               <div class="work-descr">
-                Design
+                <?=$image[0]->getDescription()?>
               </div>
             </div>
           </a>
         </div>
         <!-- /PORTFOLIO ITEM -->
+        <?php
 
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item design">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/ngy/152500461817015629101949106609.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">Everyone realizes</h3>
-              <div class="work-descr">
-                Design
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item design">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-4.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">Corporate Identity</h3>
-              <div class="work-descr">
-                Design
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item design">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-5.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">Cambridge friend</h3>
-              <div class="work-descr">
-                Design
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item wide-tall branding photo web">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-1.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">The grammar of the resulting language</h3>
-              <div class="work-descr">
-                Branding / Photo / Web
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item wide design photo web">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-7.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">A collection of textile samples</h3>
-              <div class="work-descr">
-                Design / Photo / Web
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item branding photo">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-8.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">Gregor then turned</h3>
-              <div class="work-descr">
-                Branding / Photo
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item branding photo">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-9.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">He must have tried it</h3>
-              <div class="work-descr">
-                Branding / Photo
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
-
-        <!-- PORTFOLIO ITEM -->
-        <div class="work-item wide design web">
-          <a href="portfolio-single-1.html">
-            <img src="assets/images/portfolio/img-1.jpg" alt="">
-            <div class="work-caption font-alt">
-              <h3 class="work-title">However hard he threw himself</h3>
-              <div class="work-descr">
-                Design / Web
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- /PORTFOLIO ITEM -->
+            }
+          }
+        ?>
 
       </div>
 
