@@ -1,7 +1,7 @@
 <?php
 
 // Accès base de données
-const DEV = TRUE;
+const DEV = FALSE;
 
 const BD_HOST = !DEV?'emiliengzs321.mysql.db' : 'localhost';
 const BD_DBNAME = !DEV?'emiliengzs321' : 'emilie';
