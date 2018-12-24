@@ -450,12 +450,34 @@
 			});
 		});
 
+		/* ---------------------------------------------- /*
+		 * Instagram
+		/* ---------------------------------------------- */
+		$("#box").load('https://www.instagram.com/ngyemilie/?hl=fr meta[name="description"]', function(responseTxt, statusTxt, xhr){
+	    if(statusTxt == "success")
+				var description = $('#box').find('meta[name="description"]').attr("content");
+				var splits = description.split(" ", 5);
+				var counter = [splits[4].replace(",", ""), splits[0].replace(",", ""), splits[2].replace(",", "")];
+
+				var j = 0;
+				$('.counter-item').each(function(i) {
+					$(this).appear(function() {
+						//var number = $(this).find('.counter-number').data('number');
+						var number = counter[j];
+						j++;
+						$(this).find('.counter-number span').countTo({from: 0, to: number, speed: 1200, refreshInterval: 30});
+					});
+				});
+	  });
+		/*var j = 0;
 		$('.counter-item').each(function(i) {
 			$(this).appear(function() {
-				var number = $(this).find('.counter-number').data('number');
+				//var number = $(this).find('.counter-number').data('number');
+				var number = counter[i];
+				i++;
 				$(this).find('.counter-number span').countTo({from: 0, to: number, speed: 1200, refreshInterval: 30});
 			});
-		});
+		});*/
 
 		/* ---------------------------------------------- /*
 		 * WOW Animation
