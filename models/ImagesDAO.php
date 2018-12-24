@@ -5,7 +5,7 @@ require_once('DAO.php');
 class ImagesDAO extends DAO{
 
   public function get10Images(){
-    $requete = "SELECT * FROM images JOIN modeles ON images.modele=modeles.modele_id ORDER BY img_id DESC LIMIT 0,10";
+    $requete = "SELECT * FROM images LEFT JOIN modeles ON images.modele=modeles.modele_id ORDER BY img_id DESC LIMIT 0,10";
     $donnees = array();
     $res = $this->queryAll($requete, $donnees);
     if($res){
@@ -22,7 +22,9 @@ class ImagesDAO extends DAO{
   }
 
   public function getImages(){
-    $requete = "SELECT * FROM images JOIN modeles ON images.modele=modeles.modele_id ORDER BY img_id DESC";
+    $nbImages = $this->getNbImages();
+
+    $requete = "SELECT * FROM images LEFT JOIN modeles ON images.modele=modeles.modele_id ORDER BY img_id DESC LIMIT 10, ".$nbImages;
     $donnees = array();
     $res = $this->queryAll($requete, $donnees);
     if($res){
@@ -34,6 +36,16 @@ class ImagesDAO extends DAO{
         $i++;
       }
       return $imagesListe;
+    }
+    else return null;
+  }
+
+  public function getNbImages(){
+    $requete = "SELECT COUNT( * ) AS nbimages FROM images";
+    $donnees = array();
+    $res = $this->queryRow($requete, $donnees);
+    if($res){
+      return $res['nbimages'];
     }
     else return null;
   }

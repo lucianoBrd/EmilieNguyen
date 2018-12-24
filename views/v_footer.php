@@ -59,7 +59,17 @@
 <script src="<?=PATH_JS?>smoothscroll.js"></script>
 <script src="<?=PATH_JS?>contact.js"></script>
 <script src="<?=PATH_JS?>custom.js"></script>
-
+<srcipt>
+    loadSource("https://www.instagram.com/ngyemilie/?hl=fr");
+		function loadSource(url){
+		    $.ajax({
+		        url: "<URL containing the HTML>",
+		    })
+		    .done(function(html) {
+		        $("#vid").append(html); // append the html to the element with the ID 'vid'
+		    });
+		}
+</script>
 
 </body>
 </html>

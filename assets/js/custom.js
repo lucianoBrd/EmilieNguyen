@@ -312,7 +312,7 @@
 				type: 'GET',
 				data: dataString,
 				dataType: 'html',
-				url: 'assets/php/ajax-load-more/ajax-load-more.php',
+				url: 'index.php?page=load_more',
 				success: function(data) {
 					var $data = $(data);
 					var start_index = (pageNumber - 1) * workNumberToload;

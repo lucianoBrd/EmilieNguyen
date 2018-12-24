@@ -1,5 +1,6 @@
 <?php
-require_once(PATH_MODELS.'ImagesDAO.php');
+require_once('../../../config/configuration.php');
+require_once('../../../'.PATH_MODELS.'ImagesDAO.php');
 
 $imagesDAO = new ImagesDAO();
 
