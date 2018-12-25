@@ -34,7 +34,7 @@
         <div class="image-caption">
           <div class="caption-text text-right">
             <h5 class="font-alt">Emilie Nguyen</h5>
-            <p class="font-serif">Modèle : <?=$image[1]->getPrenom()?></p>
+            <p class="font-serif">Modèle : <?=$image[1]->getPrenom().' '.$image[1]->getNom()?></p>
           </div>
           <img src="<?=$image[0]->getLink()?>" alt="">
         </div>
