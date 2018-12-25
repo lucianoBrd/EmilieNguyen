@@ -21,6 +21,19 @@ class ImagesDAO extends DAO{
     else return null;
   }
 
+  public function getImageById($id){
+    $requete = "SELECT * FROM images LEFT JOIN modeles ON images.modele=modeles.modele_id WHERE img_id = ?";
+    $donnees = array($id);
+    $res = $this->queryRow($requete, $donnees);
+    if($res){
+      $image = array();
+      $image[0] = new Images($res['img_id'], $res['img_size'], $res['img_type'], $res['img_name'], $res['link'], $res['modele'], $res['url_image'], $res['description']);
+      $image[1] = new Modeles($res['modele_id'], $res['modele_nom'], $res['modele_prenom'], $res['url_modele']);
+      return $image;
+    }
+    else return null;
+  }
+
   public function getImages(){
     $nbImages = $this->getNbImages();
 

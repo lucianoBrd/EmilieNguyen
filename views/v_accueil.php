@@ -40,7 +40,7 @@
         ?>
         <!-- PORTFOLIO ITEM -->
         <div class="work-item wide">
-          <a href="portfolio-single-1.html">
+          <a href="?page=picture&id=<?=$image[0]->getId()?>">
             <img src="<?=$image[0]->getLink()?>" alt="<?=$image[1]->getPrenom()?>">
             <div class="work-caption font-alt">
               <h3 class="work-title"><?=$image[1]->getPrenom().' '.$image[1]->getNom()?></h3>
@@ -57,7 +57,7 @@
         ?>
         <!-- PORTFOLIO ITEM -->
         <div class="work-item wide-tall">
-          <a href="portfolio-single-1.html">
+          <a href="?page=picture&id=<?=$image[0]->getId()?>">
             <img src="<?=$image[0]->getLink()?>" alt="<?=$image[1]->getPrenom()?>">
             <div class="work-caption font-alt">
               <h3 class="work-title"><?=$image[1]->getPrenom().' '.$image[1]->getNom()?></h3>
