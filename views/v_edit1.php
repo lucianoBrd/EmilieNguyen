@@ -46,7 +46,7 @@
     <!-- MODULE TITLE -->
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Ajouter une photo</h2>
+        <h2 class="module-title font-alt">Modifier une photo</h2>
       </div>
     </div>
     <!-- /MODULE TITLE -->
@@ -56,10 +56,10 @@
       <div class="col-sm-6 col-sm-offset-3">
         <?php require_once(PATH_VIEWS.'alert.php');?>
 
-      <form method = "post" action = "?page=edit" enctype = "multipart/form-data">
+      <form method = "post" action = "?page=edit1&id=<?=$image[0]->getId()?>" enctype = "multipart/form-data">
         <div class="form-group">
           <label for="url_image">Url de la photo</label>
-          <input required name="url" type="text" class="form-control" id="url_image" placeholder="https://www.instagram.com/...">
+          <input value="<?=$image[0]->getUrl()?>" required name="url" type="text" class="form-control" id="url_image" placeholder="https://www.instagram.com/...">
         </div>
         <div class="form-group">
           <label for="modele">Modèle de la photo</label>
@@ -67,7 +67,7 @@
             <?php
               foreach ($modeles as $modele) {
             ?>
-            <option value="<?=$modele->getId()?>"><?=$modele->getPrenom().' '.$modele->getNom()?></option>
+            <option <?=$image[0]->getModele()==$modele->getId()?'selected':''?> value="<?=$modele->getId()?>"><?=$modele->getPrenom().' '.$modele->getNom()?></option>
             <?php
               }
             ?>
@@ -75,13 +75,36 @@
         </div>
         <div class="form-group">
           <label for="description">Description de la photo</label>
-          <textarea name="description" class="form-control" id="description" rows="3"></textarea>
+          <textarea name="description" class="form-control" id="description" rows="3"><?=$image[0]->getDescription()?></textarea>
         </div>
         <div class="form-group">
           <label for="picture">Photo</label>
-          <input required name="image" type="file" class="form-control-file " id="picture">
+          <input name="image" type="file" class="form-control-file " id="picture">
         </div>
-        <button type="submit" class="btn btn-border-d">Ajouter</button>
+        <button type="submit" class="btn btn-border-d">Modifier</button>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Supprimer</button>
+
+        <div class="modal" id="delete" tabindex="-1" role="dialog" aria-labelledby="delete" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Supprimer</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Voulez-vous vraiment supprimer cette photo ?</p>
+              </div>
+              <div class="modal-footer">
+                <a href="?page=deleteImage&id=<?=$image[0]->getId()?>" class="btn btn-border-d">Confirmer</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
       </form>
       </div>
 
@@ -97,13 +120,6 @@
 
   <div class="container">
 
-    <!-- MODULE TITLE -->
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Liste des photos</h2>
-      </div>
-    </div>
-    <!-- /MODULE TITLE -->
 
     <!-- WORKS GRID -->
     <div class="row">
@@ -114,13 +130,11 @@
         <div class="grid-sizer"></div>
 
         <?php
-          foreach ($imagesListe as $image) {
             list($width, $height, $type, $attr) = getimagesize($image[0]->getLink());
             if($height < $width){
         ?>
         <!-- PORTFOLIO ITEM -->
         <div class="work-item wide">
-          <a href="?page=edit1&id=<?=$image[0]->getId()?>">
             <img src="<?=$image[0]->getLink()?>" alt="<?=$image[1]->getPrenom()?>">
             <div class="work-caption font-alt">
               <h3 class="work-title"><?=$image[1]->getPrenom().' '.$image[1]->getNom()?></h3>
@@ -128,7 +142,6 @@
                 <?=$image[0]->getDescription()?>
               </div>
             </div>
-          </a>
         </div>
         <!-- /PORTFOLIO ITEM -->
         <?php
@@ -137,7 +150,6 @@
         ?>
         <!-- PORTFOLIO ITEM -->
         <div class="work-item wide-tall">
-          <a href="?page=edit1&id=<?=$image[0]->getId()?>">
             <img src="<?=$image[0]->getLink()?>" alt="<?=$image[1]->getPrenom()?>">
             <div class="work-caption font-alt">
               <h3 class="work-title"><?=$image[1]->getPrenom().' '.$image[1]->getNom()?></h3>
@@ -145,13 +157,11 @@
                 <?=$image[0]->getDescription()?>
               </div>
             </div>
-          </a>
         </div>
         <!-- /PORTFOLIO ITEM -->
         <?php
 
             }
-          }
         ?>
 
       </div>
