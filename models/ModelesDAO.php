@@ -37,7 +37,7 @@ class ModelesDAO extends DAO{
   }
 
   public function getModeles(){
-    $requete = "SELECT * FROM modeles ORDER BY modele_id DESC";
+    $requete = "SELECT * FROM modeles ORDER BY modele_prenom ASC";
     $donnees = array();
     $res = $this->queryAll($requete, $donnees);
     if($res){

@@ -3,7 +3,7 @@
 <?php require_once(PATH_VIEWS.'menu.php');?>
 
 <!-- HERO -->
-<section class="module module-parallax bg-light-30" data-background="">
+<section class="module module-parallax bg-light-30" data-background="assets/images/lyon.jpg">
 
   <!-- HERO TEXT -->
   <div class="container">
@@ -46,7 +46,7 @@
     <!-- MODULE TITLE -->
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Modifier un modèle</h2>
+        <h2 class="module-title font-alt"><a href="?page=editModele" class="btn btn-border-d btn-xs">Retour</a> Modifier un modèle</h2>
       </div>
     </div>
     <!-- /MODULE TITLE -->

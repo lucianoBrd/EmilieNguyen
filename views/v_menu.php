@@ -22,6 +22,23 @@
 
 					<li><a href="?page=contact">Contact</a></li>
 
+					<?php
+						if(isset($_SESSION['connect'])){
+					?>
+					<li class="slidedown">
+						<a href="#">Gestion du site</a>
+						<ul>
+							<li><a href="?page=edit">Gérer les photos</a></li>
+							<li><a href="?page=editModele">Gérer les modèles</a></li>
+						</ul>
+					</li>
+
+					<li><a href="?page=deconnexion">Déconnexion</a></li>
+
+					<?php
+						}
+					?>
+
 				</ul>
 
 			</nav>

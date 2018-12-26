@@ -3,7 +3,7 @@
 <?php require_once(PATH_VIEWS.'menu.php');?>
 
 <!-- HERO -->
-<section class="module module-parallax bg-light-30" data-background="">
+<section class="module module-parallax bg-light-30" data-background="assets/images/lyon.jpg">
 
   <!-- HERO TEXT -->
   <div class="container">
@@ -62,7 +62,7 @@
           <input required name="url" type="text" class="form-control" id="url_image" placeholder="https://www.instagram.com/...">
         </div>
         <div class="form-group">
-          <label for="modele">Modèle de la photo</label>
+          <label for="modele">Modèle de la photo <a href="?page=editModele" class="btn btn-border-d btn-xs">Nouveau modèle</a></label>
           <select name="modele" class="form-control" id="modele">
             <?php
               foreach ($modeles as $modele) {
@@ -72,6 +72,7 @@
               }
             ?>
           </select>
+
         </div>
         <div class="form-group">
           <label for="description">Description de la photo</label>
