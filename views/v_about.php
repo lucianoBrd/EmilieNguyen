@@ -38,10 +38,11 @@
     <div class="row">
 
       <div class="col-sm-6 col-sm-offset-3">
-        <p>Je m’appelle Emilie, j’habite dans la ville de Lyon en France.</p>
-        <p>Et j’aimerais, à travers mes photos, faire voyager vos esprits et vos sens.
-        Je vous expose mes créations, ma vision du monde, à travers mes photographies.
-        Car la beauté est de partout, il suffit de la saisir, de la créer, par la vision que j’ai et que j’essaie de retranscrire derrière mon appareil photo.</p>
+        <p>Bonjour, ou bonsoir, cela dépend de l’heure à laquelle vous découvrirez mon site, car il n’y a pas d’heure pour s’intéresser à la photographie.</p>
+        <p>Je m’appelle Emilie Nguyen. Je suis photographe de portrait, de mode.
+          Comme vous vous en doutez, la photographie est ma passion, et c’est au travers de ce site que vous pourrez l’explorer.
+          Vous pourrez trouver ici mes œuvres et mes photographies.</p>
+        <blockquote><p>Just passionate. Everything has beauty.</p></blockquote>
         <p><a href="?page=contact" class="section-scroll">Me contacter →</a></p>
       </div>
 
