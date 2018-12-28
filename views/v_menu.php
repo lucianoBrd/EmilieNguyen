@@ -97,7 +97,7 @@
 					<li><a href="../" title="Home">Accueil</a></li>
 					<li><a href="?page=about" title="About">A Propos</a></li>
 					<li><a href="?page=contact" title="Contact">Contact</a></li>
-					<li><a href="?page=tarifs" title="Contact">Tarifs</a></li>
+					<li><a href="?page=tarifs" title="Tarifs">Tarifs</a></li>
 				</ul>
 
 			</div>
