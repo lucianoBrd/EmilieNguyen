@@ -22,6 +22,8 @@
 
 					<li><a href="?page=contact">Contact</a></li>
 
+					<li><a href="?page=tarifs">Tarifs</a></li>
+
 					<?php
 						if(isset($_SESSION['connect'])){
 					?>
@@ -95,6 +97,7 @@
 					<li><a href="../" title="Home">Accueil</a></li>
 					<li><a href="?page=about" title="About">A Propos</a></li>
 					<li><a href="?page=contact" title="Contact">Contact</a></li>
+					<li><a href="?page=tarifs" title="Contact">Tarifs</a></li>
 				</ul>
 
 			</div>

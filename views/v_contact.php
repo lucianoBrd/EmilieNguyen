@@ -71,7 +71,8 @@
           <h5 class="alt-content-box-title font-alt">
             Say Hello
           </h5>
-          Email: contact@emilie-ngy.com
+          Email: contact@emilie-ngy.com <br>
+          Instagram: <a target="_blank" href="https://www.instagram.com/ngyemilie/?hl=fr">ngyemilie</a>
         </div>
         <!-- /ALT CONTENT BOX -->
 

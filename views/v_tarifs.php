@@ -1,0 +1,166 @@
+
+<?php require_once(PATH_VIEWS.'header.php');?>
+
+<?php require_once(PATH_VIEWS.'menu.php');?>
+
+<!-- HERO -->
+<section class="module module-parallax bg-light-30" data-background="assets/images/tarifs.jpg">
+
+  <!-- HERO TEXT -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="mh-line-size-3 font-alt m-b-20">Tarifs</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- /HERO TEXT -->
+
+</section>
+<!-- /HERO -->
+
+<!-- PRICING 3 COLUMNS -->
+<section class="module">
+
+  <div class="container">
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Etudiant</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row multi-columns-row">
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table font-alt">
+          <h4>Light</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>25</p>
+          <ul class="price-details">
+            <li>30 minutes de shooting</li>
+            <li>3 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table best font-alt">
+          <h4>Avancé</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>60</p>
+          <ul class="price-details">
+            <li>1 heure de shooting</li>
+            <li>10 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table font-alt">
+          <h4>Basic</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>45</p>
+          <ul class="price-details">
+            <li>45 minutes de shooting</li>
+            <li>8 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /PRICING 3 COLUMNS -->
+
+<hr class="divider"><!-- DIVIDER -->
+
+<!-- PRICING 3 COLUMNS -->
+<section class="module">
+
+  <div class="container">
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Normal</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row multi-columns-row">
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table font-alt">
+          <h4>Light</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>30</p>
+          <ul class="price-details">
+            <li>30 minutes de shooting</li>
+            <li>3 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table best font-alt">
+          <h4>Avancé</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>60</p>
+          <ul class="price-details">
+            <li>1 heure de shooting</li>
+            <li>10 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table font-alt">
+          <h4>Basic</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>50</p>
+          <ul class="price-details">
+            <li>45 minutes de shooting</li>
+            <li>8 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /PRICING 3 COLUMNS -->
+
+<?php require_once(PATH_VIEWS.'footer.php');?>
