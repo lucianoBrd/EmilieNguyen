@@ -30,7 +30,7 @@
     <!-- MODULE TITLE -->
     <div class="row">
       <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Qui je suis</h2>
+        <h2 class="module-title font-alt">Qui suis-je</h2>
       </div>
     </div>
     <!-- /MODULE TITLE -->

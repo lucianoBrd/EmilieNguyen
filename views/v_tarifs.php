@@ -89,7 +89,7 @@
         <div class="price-table best font-alt">
           <h4>Avancé</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>60</p>
+          <p class="price"><span>€</span>55</p>
           <ul class="price-details">
             <li>1 heure de shooting</li>
             <li>10 photos retouchées</li>
