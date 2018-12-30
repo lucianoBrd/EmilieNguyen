@@ -21,6 +21,38 @@
 </section>
 <!-- /HERO -->
 
+<!-- PARAGRAPH -->
+<section class="module">
+
+  <div class="container">
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Informations</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>Je suis là pour vous mettre à l’aise, pour vous accompagner tout le long du shooting dans la bonne humeur !</p>
+        <p>Je suis également à votre disposition après le shooting si vous avez besoin de conseils, ou avant le shooting pour toutes questions !</p>
+        <ul>
+          <li>Possibilité de choisir de vous faire maquiller ou non, pour un coût supplémentaire</li>
+          <li>Vous pouvez emmener plusieurs tenues pour varier les photos</li>
+          <li> Plusieurs spots différents lors d’un shooting</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /PARAGRAPH -->
+
 <!-- PRICING 3 COLUMNS -->
 <section class="module">
 
@@ -76,7 +108,7 @@
           <p class="price"><span>€</span>45</p>
           <ul class="price-details">
             <li>45 minutes de shooting</li>
-            <li>8 photos retouchées</li>
+            <li>7 photos retouchées</li>
             <li>Et envoyées en HD</li>
           </ul>
           <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
@@ -148,7 +180,7 @@
           <p class="price"><span>€</span>50</p>
           <ul class="price-details">
             <li>45 minutes de shooting</li>
-            <li>8 photos retouchées</li>
+            <li>7 photos retouchées</li>
             <li>Et envoyées en HD</li>
           </ul>
           <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
