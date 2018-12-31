@@ -38,10 +38,9 @@
     <div class="row">
 
       <div class="col-sm-6 col-sm-offset-3">
-        <p>Bonjour, ou bonsoir, cela dépend de l’heure à laquelle vous découvrirez mon site, car il n’y a pas d’heure pour s’intéresser à la photographie.</p>
-        <p>Je m’appelle Emilie Nguyen. Je suis photographe de portrait, de mode.
-          Comme vous vous en doutez, la photographie est ma passion, et c’est au travers de ce site que vous pourrez l’explorer.
-          Vous pourrez trouver ici mes œuvres et mes photographies.</p>
+        <p>Je m’appelle Emilie Nguyen, je suis une jeune photographe lyonnaise.</p>
+        <p>Je suis photographe de portrait, de mode. Comme vous vous en doutez, la photographie est ma passion. Elle m’a permis d’échanger avec les gens et de diffuser ma vision.</p>
+        <p>C’est au travers de ce site que vous pourrez l’explorer.</p>
         <blockquote><p>Just passionate. Everything has beauty.</p></blockquote>
         <p><a href="?page=contact" class="section-scroll">Me contacter →</a></p>
       </div>
