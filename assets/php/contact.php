@@ -1,7 +1,7 @@
 <?php
 
 	// Mail settings
-	$to      = "lucien.burdet@gmail.com";
+	$to      = "emilie.ngy@icloud.com";
 	$subject = "Emilie Nguyen";
 
 	// You can put here your email
