@@ -53,7 +53,7 @@
 				<div class="row">
 
 					<div class="col-sm-12 text-center">
-						<p class="copyright font-alt m-b-0">© 2018 Emilie Nguyen, All Rights Reserved.</p>
+						<p class="copyright font-alt m-b-0">© <?= date('Y') ?> Emilie Nguyen, All Rights Reserved.</p>
 					</div>
 
 				</div>
