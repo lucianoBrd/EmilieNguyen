@@ -20,7 +20,7 @@
 
 			<div class="col-sm-12">
 
-				<p class="copyright text-center m-b-0">© 2018 <a href="../">Emilie Nguyen</a>, All Rights Reserved.</p>
+				<p class="copyright text-center m-b-0">© <?= date('Y') ?> <a href="../">Emilie Nguyen</a>, All Rights Reserved.</p>
 
 			</div>
 
