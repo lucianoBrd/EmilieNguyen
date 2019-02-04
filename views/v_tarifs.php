@@ -37,13 +37,14 @@
     <div class="row">
 
       <div class="col-sm-6 col-sm-offset-3">
-        <p>Je suis là pour vous mettre à l’aise, pour vous accompagner tout le long du shooting dans la bonne humeur !</p>
+        <p>Je suis là pour vous mettre à l’aise, pour vous accompagner tout au long du shooting dans la bonne humeur !</p>
         <p>Je suis également à votre disposition après le shooting si vous avez besoin de conseils, ou avant le shooting pour toutes questions !</p>
         <ul>
           <li>Possibilité de choisir de vous faire maquiller ou non, pour un coût supplémentaire</li>
           <li>Vous pouvez emmener plusieurs tenues pour varier les photos</li>
           <li> Plusieurs spots différents lors d’un shooting</li>
         </ul>
+        <p>Pour toute demande particulière de shooting, veuillez <a href="?page=contact">me contacter</a> pour un devis !</p>
       </div>
 
     </div>
