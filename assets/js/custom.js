@@ -457,26 +457,31 @@
 		$(insta).load('index.php?page=insta', function(responseTxt, statusTxt, xhr){
 	    if(statusTxt == "success"){
 				var description = $(insta).find('meta[name="description"]').attr("content");
-				var splits = description.split(" ", 5);
-				var counter = [splits[4].replace(",", ""), splits[0].replace(",", ""), splits[2].replace(",", "")];
-
+				if(description){
+					try{
+						var splits = description.split(" ", 5);
+						var counter = [splits[4].replace(",", ""), splits[0].replace(",", ""), splits[2].replace(",", "")];
+						$(insta).load('index.php?page=insta&publication='+counter[0]+'&abonnement='+counter[2]+'&abonne='+counter[1]);
+				} catch(error){}
+				}
+			}
+			$.getJSON("index.php?page=insta&data=true", function(result){
+				var data = [result.publication, result.abonne, result.abonnement];
 				var j = 0;
 				$('.counter-item').each(function(i) {
 					$(this).appear(function() {
-						//var number = $(this).find('.counter-number').data('number');
-						var number = counter[j];
+						var number = data[j];
 						j++;
 						$(this).find('.counter-number span').countTo({from: 0, to: number, speed: 1200, refreshInterval: 30});
 					});
 				});
-			} else {
+		  });
 
-			}
 	  });
 		/*var j = 0;
 		$('.counter-item').each(function(i) {
 			$(this).appear(function() {
-				//var number = $(this).find('.counter-number').data('number');
+				var number = $(this).find('.counter-number').data('number');
 				var number = counter[i];
 				i++;
 				$(this).find('.counter-number span').countTo({from: 0, to: number, speed: 1200, refreshInterval: 30});
