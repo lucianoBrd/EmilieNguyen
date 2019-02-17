@@ -58,9 +58,6 @@
   <div class="container">
 
     <div class="row">
-      <div id="box" style="display: none">
-
-      </div>
 
       <!-- COUNTER -->
       <div class="col-sm-4 m-b-md-20">

@@ -453,9 +453,10 @@
 		/* ---------------------------------------------- /*
 		 * Instagram
 		/* ---------------------------------------------- */
-		$("#box").load('https://www.instagram.com/ngyemilie/?hl=fr meta[name="description"]', function(responseTxt, statusTxt, xhr){
-	    if(statusTxt == "success")
-				var description = $('#box').find('meta[name="description"]').attr("content");
+		var insta = document.createElement("div");
+		$(insta).load('index.php?page=insta', function(responseTxt, statusTxt, xhr){
+	    if(statusTxt == "success"){
+				var description = $(insta).find('meta[name="description"]').attr("content");
 				var splits = description.split(" ", 5);
 				var counter = [splits[4].replace(",", ""), splits[0].replace(",", ""), splits[2].replace(",", "")];
 
@@ -468,6 +469,9 @@
 						$(this).find('.counter-number span').countTo({from: 0, to: number, speed: 1200, refreshInterval: 30});
 					});
 				});
+			} else {
+
+			}
 	  });
 		/*var j = 0;
 		$('.counter-item').each(function(i) {
