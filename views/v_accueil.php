@@ -10,8 +10,7 @@
   <div class="hero-caption">
     <div class="hero-text">
 
-      <h1 class="mh-line-size-1 font-alt m-b-50">Emilie Nguyen</h1>
-      <h5 class="mh-line-size-4 font-alt">Photographe</h5>
+      <h1 class="mh-line-size-1 font-alt m-b-50"><img src="assets/images/logo.png" width="630" alt="emilie nguyen"></h1>
 
     </div>
   </div>

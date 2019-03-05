@@ -77,7 +77,7 @@
 					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="../">
 						<!-- IMAGE OR SIMPLE TEXT -->
-						<img src="assets/images/logo.svg" width="95" alt="emilie nguyen">
+						<img src="assets/images/logo.png" width="135" alt="emilie nguyen">
 					</a>
 				</div>
 
