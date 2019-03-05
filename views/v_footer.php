@@ -20,6 +20,7 @@
 
 			<div class="col-sm-12">
 
+				<p class="copyright text-center m-b-0">N° SIRET 848 620 373 00011</p>
 				<p class="copyright text-center m-b-0">© <?= date('Y') ?> <a href="../">Emilie Nguyen</a>, All Rights Reserved.</p>
 
 			</div>
