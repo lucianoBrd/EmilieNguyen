@@ -12,9 +12,9 @@
 
 	if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
 
-		$content  = "Nom: "     . $_POST["name"]    . "\r\n";
-		$content .= "Email: "    . $_POST["email"]   . "\r\n";
-		$content .= "Message: "  . "\r\n" . $_POST["message"];
+		$content  = "Nom: "     . htmlspecialchars($_POST["name"])    . "\r\n";
+		$content .= "Email: "    . htmlspecialchars($_POST["email"])   . "\r\n";
+		$content .= "Message: "  . "\r\n" . htmlspecialchars($_POST["message"]);
 
 		if (mail($to, $subject, $content, $header)) {
 
