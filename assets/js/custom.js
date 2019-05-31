@@ -460,7 +460,7 @@
 				if(description){
 					try{
 						var splits = description.split(" ", 5);
-						var counter = [splits[4].replace(",", ""), splits[0].replace(",", ""), splits[2].replace(",", "")];
+						var counter = [splits[5].replace(",", ""), splits[0], splits[3].replace(",", "")];
 						$(insta).load('index.php?page=insta&publication='+counter[0]+'&abonnement='+counter[2]+'&abonne='+counter[1]);
 				} catch(error){}
 				}
