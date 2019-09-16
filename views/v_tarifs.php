@@ -106,7 +106,7 @@
         <div class="price-table font-alt">
           <h4>Basic</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>55</p>
+          <p class="price"><span>€</span>60</p>
           <ul class="price-details">
             <li>45 minutes de shooting</li>
             <li>7 photos retouchées</li>
@@ -146,7 +146,7 @@
         <div class="price-table font-alt">
           <h4>Light</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>35</p>
+          <p class="price"><span>€</span>40</p>
           <ul class="price-details">
             <li>30 minutes de shooting</li>
             <li>3 photos retouchées</li>
@@ -162,7 +162,7 @@
         <div class="price-table best font-alt">
           <h4>Avancé</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>70</p>
+          <p class="price"><span>€</span>75</p>
           <ul class="price-details">
             <li>1 heure de shooting</li>
             <li>10 photos retouchées</li>
@@ -178,7 +178,7 @@
         <div class="price-table font-alt">
           <h4>Basic</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>60</p>
+          <p class="price"><span>€</span>65</p>
           <ul class="price-details">
             <li>45 minutes de shooting</li>
             <li>7 photos retouchées</li>
