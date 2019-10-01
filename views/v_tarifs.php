@@ -59,22 +59,14 @@
 
   <div class="container">
 
-    <!-- MODULE TITLE -->
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Etudiant</h2>
-      </div>
-    </div>
-    <!-- /MODULE TITLE -->
-
     <div class="row multi-columns-row">
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table font-alt">
           <h4>Light</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>35</p>
+          <p class="price"><span>€</span>90</p>
           <ul class="price-details">
             <li>30 minutes de shooting</li>
             <li>3 photos retouchées</li>
@@ -86,11 +78,11 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
-        <div class="price-table best font-alt">
+      <div class="col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table font-alt">
           <h4>Avancé</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>70</p>
+          <p class="price"><span>€</span>220</p>
           <ul class="price-details">
             <li>1 heure de shooting</li>
             <li>10 photos retouchées</li>
@@ -102,69 +94,13 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
-        <div class="price-table font-alt">
-          <h4>Basic</h4>
-          <div class="borderline"></div>
-          <p class="price"><span>€</span>60</p>
-          <ul class="price-details">
-            <li>45 minutes de shooting</li>
-            <li>7 photos retouchées</li>
-            <li>Et envoyées en HD</li>
-          </ul>
-          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
-        </div>
-      </div>
-      <!-- /PRICE-TABLE -->
-
-    </div>
-
-  </div>
-
-</section>
-<!-- /PRICING 3 COLUMNS -->
-
-<hr class="divider"><!-- DIVIDER -->
-
-<!-- PRICING 3 COLUMNS -->
-<section class="module">
-
-  <div class="container">
-
-    <!-- MODULE TITLE -->
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Normal</h2>
-      </div>
-    </div>
-    <!-- /MODULE TITLE -->
-
-    <div class="row multi-columns-row">
-
-      <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
-        <div class="price-table font-alt">
-          <h4>Light</h4>
-          <div class="borderline"></div>
-          <p class="price"><span>€</span>40</p>
-          <ul class="price-details">
-            <li>30 minutes de shooting</li>
-            <li>3 photos retouchées</li>
-            <li>Et envoyées en HD</li>
-          </ul>
-          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
-        </div>
-      </div>
-      <!-- /PRICE-TABLE -->
-
-      <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table best font-alt">
-          <h4>Avancé</h4>
+          <h4>Avancé - Make Up Artiste</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>75</p>
+          <p class="price"><span>€</span>240</p>
           <ul class="price-details">
-            <li>1 heure de shooting</li>
+            <li>Plus d'une heure de shooting avec Make up d'artiste</li>
             <li>10 photos retouchées</li>
             <li>Et envoyées en HD</li>
           </ul>
@@ -174,11 +110,11 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table font-alt">
           <h4>Basic</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>65</p>
+          <p class="price"><span>€</span>175</p>
           <ul class="price-details">
             <li>45 minutes de shooting</li>
             <li>7 photos retouchées</li>
