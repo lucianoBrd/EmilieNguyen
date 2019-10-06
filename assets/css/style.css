@@ -31,6 +31,10 @@ iframe {
 	border: 0;
 }
 
+.item {
+  color: #fff;
+}
+
 /* ------------------------------------------------------------------
 Selection
 ------------------------------------------------------------------ */
@@ -1810,7 +1814,7 @@ Comments and Comment form
 }
 
 .comment-content {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	margin-bottom: 30px;
 }
 

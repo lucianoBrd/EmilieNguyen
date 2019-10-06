@@ -45,6 +45,8 @@
           <li> Plusieurs spots différents lors d’un shooting</li>
         </ul>
         <p>Pour toute demande particulière de shooting, veuillez <a href="?page=contact">me contacter</a> pour un devis !</p>
+        <p>Si vous avez un petit budget, ne vous inquiétez pas ! Il est possible de payer en 2 fois sans frais*.</p>
+        <p><small>*Un acompte de 15% vous sera demandé avant le shooting.</small></p>
       </div>
 
     </div>
@@ -53,6 +55,54 @@
 
 </section>
 <!-- /PARAGRAPH -->
+
+<?php
+  if($nbAvis > 0){
+?>
+<!-- TESTIMONIALS -->
+<section class="module module-parallax bg-light-30" data-background="assets/images/avis_t.jpg">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3">
+
+        <!-- TESTIMONIALS CAROUSEL -->
+        <div class="owl-carousel slider-testimonials text-center">
+
+          <?php
+            foreach ($avisListe as $avis) {
+          ?>
+          <!-- SLIDE -->
+          <div class="item">
+            <h5 class="module-icon m-b-20">
+              <i class="ion-ios-chatboxes-outline"></i>
+            </h5>
+            <div class="font-serif m-b-20">
+              <?= $avis->getAvis() ?>
+            </div>
+            <div class="quote-author font-alt"><?= $avis->getFirstName().' '.$avis->getName() ?></div>
+          </div>
+          <!-- /SLIDE -->
+          <?php
+            }
+          ?>
+
+        </div>
+        <!-- /TESTIMONIALS CAROUSEL -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /TESTIMONIALS -->
+<?php
+  }
+?>
 
 <!-- PRICING 3 COLUMNS -->
 <section class="module">
@@ -96,7 +146,7 @@
       <!-- PRICE-TABLE -->
       <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table best font-alt">
-          <h4>Avancé - Make Up Artiste</h4>
+          <h4>Avancé - Make Up Artist</h4>
           <div class="borderline"></div>
           <p class="price"><span>€</span>240</p>
           <ul class="price-details">

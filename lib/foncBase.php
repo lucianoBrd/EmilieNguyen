@@ -9,6 +9,14 @@ function choixAlert($message)
       $alert['messageAlert'] = MESSAGE_SUCCESSI;
       $alert['typeAlert'] = 'success';
       break;
+    case 'SUCCESSA' :
+      $alert['messageAlert'] = MESSAGE_SUCCESSA;
+      $alert['typeAlert'] = 'success';
+      break;
+    case 'SUCCESSAD' :
+      $alert['messageAlert'] = MESSAGE_SUCCESSAD;
+      $alert['typeAlert'] = 'success';
+      break;
     case 'SUCCESS' :
       $alert['messageAlert'] = MESSAGE_SUCCESS;
       $alert['typeAlert'] = 'success';

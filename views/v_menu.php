@@ -24,6 +24,8 @@
 
 					<li><a href="?page=tarifs">Tarifs</a></li>
 
+					<li><a href="?page=tarifs">Avis</a></li>
+
 					<?php
 						if(isset($_SESSION['connect'])){
 					?>
@@ -32,6 +34,7 @@
 						<ul>
 							<li><a href="?page=edit">Gérer les photos</a></li>
 							<li><a href="?page=editModele">Gérer les modèles</a></li>
+							<li><a href="?page=editAvis">Gérer les avis</a></li>
 						</ul>
 					</li>
 
@@ -98,6 +101,17 @@
 					<li><a href="?page=about" title="About">A Propos</a></li>
 					<li><a href="?page=contact" title="Contact">Contact</a></li>
 					<li><a href="?page=tarifs" title="Tarifs">Tarifs</a></li>
+					<li><a href="?page=avis" title="Avis">Avis</a></li>
+					<?php
+						if(isset($_SESSION['connect'])){
+					?>
+					<li><a href="?page=edit" title="Admin">Gérer les photos</a></li>
+					<li><a href="?page=editModele" title="Admin">Gérer les modèles</a></li>
+					<li><a href="?page=editAvis" title="Admin">Gérer les avis</a></li>
+					<li><a href="?page=deconnexion" title="Deconnexion">Déconnexion</a></li>
+					<?php
+						}
+					?>
 				</ul>
 
 			</div>
