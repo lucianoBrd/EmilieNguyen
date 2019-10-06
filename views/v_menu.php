@@ -24,7 +24,7 @@
 
 					<li><a href="?page=tarifs">Tarifs</a></li>
 
-					<li><a href="?page=tarifs">Avis</a></li>
+					<li><a href="?page=avis">Avis</a></li>
 
 					<?php
 						if(isset($_SESSION['connect'])){
