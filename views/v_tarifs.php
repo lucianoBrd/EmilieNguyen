@@ -37,16 +37,50 @@
     <div class="row">
 
       <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
-        <p>Je suis là pour vous mettre à l’aise, pour vous accompagner tout au long du shooting dans la bonne humeur !</p>
-        <p>Je suis également à votre disposition après le shooting si vous avez besoin de conseils, ou avant le shooting pour toutes questions !</p>
-        <ul>
-          <li>Possibilité de choisir de vous faire maquiller ou non, pour un coût supplémentaire</li>
-          <li>Vous pouvez emmener plusieurs tenues pour varier les photos</li>
-          <li> Plusieurs spots différents lors d’un shooting</li>
-        </ul>
-        <p>Pour toute demande particulière de shooting, veuillez <a href="?page=contact">me contacter</a> pour un devis !</p>
-        <p>Si vous avez un petit budget, ne vous inquiétez pas ! Il est possible de payer en 2 fois sans frais*.</p>
-        <p><small>*Un acompte de 15% vous sera demandé avant le shooting.</small></p>
+        <p>
+            Je n’ai aucun critère pour les shootings, mes séances sont ouvertes à tout le monde.
+            Donc, pas de panique, si tu n’as jamais fait de shooting, il n’y a aucun souci.
+            On prendra le temps d’essayer plein de choses différentes pour avoir le rendu que tu aimes.
+            Je suis là pour te mettre à l’aise, pour t’accompagner tout au long du shooting dans la bonne humeur !
+            Je suis également à ta disposition après le shooting si tu as besoin de conseils, ou avant le shooting pour toutes questions.
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Comment cela se passe ?</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
+        <p>
+            Tout d’abord choisis la formule qu’il te convient le mieux, puis nous discuterons ensemble du déroulement du shooting (des projets, des thèmes, des lieux, du make up, des tenues etc.).
+            Plusieurs spots seront proposés lors du shooting.
+            Ensuite, nous fixerons ensemble une date et un horaire qui nous convienne.
+            Pour le paiement, si tu as un petit budget, ne t’inquiète pas, il est possible de payer en plusieurs fois sans frais.
+        </p>
+        <p>
+          À la fin du shooting, je ferai un tri où j’enlèverai les doublons, les photos floues etc., et je te les enverrai par e-mail pour que tu puisses choisir tranquillement chez toi tes photos préférées.
+          Puis je les retoucherai et je te les enverrai sous 2 semaines.
+          Si tu as besoin de conseil, je suis là pour t’aider et je peux même faire la sélection pour toi si tu en as envie !
+        </p>
+        <p>
+          <small>
+            (Pour des questions de sécurité, un acompte de 15% du prix du shooting te sera demandé avant le shooting.
+            À régler par virement bancaire, ou par Paypal)
+          </small>
+        </p>
+        <p>
+          Pour toute demande particulière de shooting, veuillez <a href="?page=contact">me contacter</a> pour un devis.
+        </p>
+
       </div>
 
     </div>
