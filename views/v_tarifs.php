@@ -150,7 +150,7 @@
         <div class="price-table font-alt">
           <h4>Light</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>90</p>
+          <p class="price"><span>€</span>75</p>
           <ul class="price-details">
             <li>30 minutes de shooting</li>
             <li>3 photos retouchées</li>
@@ -166,7 +166,7 @@
         <div class="price-table font-alt">
           <h4>Avancé</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>220</p>
+          <p class="price"><span>€</span>200</p>
           <ul class="price-details">
             <li>1 heure de shooting</li>
             <li>10 photos retouchées</li>
@@ -182,7 +182,7 @@
         <div class="price-table best font-alt">
           <h4>Avancé - Make Up Artist</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>240</p>
+          <p class="price"><span>€</span>220</p>
           <ul class="price-details">
             <li>Plus d'une heure de shooting avec Make up d'artiste</li>
             <li>10 photos retouchées</li>
