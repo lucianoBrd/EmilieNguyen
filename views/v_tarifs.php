@@ -146,7 +146,7 @@
     <div class="row multi-columns-row">
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-4">
         <div class="price-table font-alt">
           <h4>Light</h4>
           <div class="borderline"></div>
@@ -162,7 +162,7 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-4">
         <div class="price-table font-alt">
           <h4>Avancé</h4>
           <div class="borderline"></div>
@@ -178,7 +178,7 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-4">
         <div class="price-table best font-alt">
           <h4>Avancé - Make Up Artist</h4>
           <div class="borderline"></div>
@@ -194,7 +194,24 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-3 col-lg-3">
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="price-table font-alt">
+          <h4>Middle</h4>
+          <div class="borderline"></div>
+          <p class="price"><span>€</span>160</p>
+          <ul class="price-details">
+            <li>45 minutes shooting</li>
+            <li>6 photos retouchées</li>
+            <li>Et envoyées en HD</li>
+            <li>MUA comprises</li>
+          </ul>
+          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
+        </div>
+      </div>
+      <!-- /PRICE-TABLE -->
+
+      <!-- PRICE-TABLE -->
+      <div class="col-sm-6 col-md-4 col-lg-4">
         <div class="price-table font-alt">
           <h4>Basic</h4>
           <div class="borderline"></div>
