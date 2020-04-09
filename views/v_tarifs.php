@@ -184,7 +184,7 @@
           <div class="borderline"></div>
           <p class="price"><span>€</span>220</p>
           <ul class="price-details">
-            <li>Plus d'une heure de shooting avec Make up d'artiste</li>
+            <li>Plus d’une heure de shootings avec Make Up Artist</li>
             <li>10 photos retouchées</li>
             <li>Et envoyées en HD</li>
           </ul>
@@ -215,7 +215,7 @@
         <div class="price-table font-alt">
           <h4>Basic</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>175</p>
+          <p class="price"><span>€</span>170</p>
           <ul class="price-details">
             <li>45 minutes de shooting</li>
             <li>7 photos retouchées</li>
