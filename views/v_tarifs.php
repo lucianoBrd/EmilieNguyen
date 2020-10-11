@@ -146,14 +146,13 @@
     <div class="row multi-columns-row">
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table font-alt">
           <h4>Light</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>75</p>
+          <p class="price"><span>€</span>70</p>
           <ul class="price-details">
-            <li>30 minutes de shooting</li>
-            <li>3 photos retouchées</li>
+            <li>4 photos retouchées</li>
             <li>Et envoyées en HD</li>
           </ul>
           <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
@@ -162,13 +161,12 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table font-alt">
           <h4>Avancé</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>200</p>
+          <p class="price"><span>€</span>180</p>
           <ul class="price-details">
-            <li>1 heure de shooting</li>
             <li>10 photos retouchées</li>
             <li>Et envoyées en HD</li>
           </ul>
@@ -178,15 +176,14 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table best font-alt">
           <h4>Avancé - Make Up Artist</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>220</p>
+          <p class="price"><span>€</span>210</p>
           <ul class="price-details">
-            <li>Plus d’une heure de shootings avec Make Up Artist</li>
             <li>10 photos retouchées</li>
-            <li>Et envoyées en HD</li>
+            <li>Et envoyées en HD + Make Up Artist</li>
           </ul>
           <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
         </div>
@@ -194,32 +191,14 @@
       <!-- /PRICE-TABLE -->
 
       <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
+      <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="price-table font-alt">
-          <h4>Middle</h4>
+          <h4>Basic - Make Up Artist</h4>
           <div class="borderline"></div>
           <p class="price"><span>€</span>160</p>
           <ul class="price-details">
-            <li>45 minutes shooting</li>
             <li>6 photos retouchées</li>
-            <li>Et envoyées en HD</li>
-            <li>MUA comprises</li>
-          </ul>
-          <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
-        </div>
-      </div>
-      <!-- /PRICE-TABLE -->
-
-      <!-- PRICE-TABLE -->
-      <div class="col-sm-6 col-md-4 col-lg-4">
-        <div class="price-table font-alt">
-          <h4>Basic</h4>
-          <div class="borderline"></div>
-          <p class="price"><span>€</span>170</p>
-          <ul class="price-details">
-            <li>45 minutes de shooting</li>
-            <li>7 photos retouchées</li>
-            <li>Et envoyées en HD</li>
+            <li>Et envoyées en HD + Make Up Artist</li>
           </ul>
           <a href="?page=contact" class="btn btn-d btn-round">Me contacter</a>
         </div>
