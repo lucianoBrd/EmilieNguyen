@@ -3,10 +3,7 @@
 // Accès base de données
 const DEV = FALSE;
 
-const BD_HOST = !DEV?'emiliengzs321.mysql.db' : 'localhost';
-const BD_DBNAME = !DEV?'emiliengzs321' : 'emilie';
-const BD_USER = !DEV?'emiliengzs321' : 'root';
-const BD_PWD = !DEV?'Capiitainecool01' : '';
+require_once('./config/env.php');
 
 // Langue du site
 const LANG ='FR-fr';
