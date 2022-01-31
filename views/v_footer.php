@@ -61,7 +61,6 @@
 <script src="<?=PATH_JS?>smoothscroll.js"></script>
 <script src="<?=PATH_JS?>contact.js"></script>
 <script src="<?=PATH_JS?>custom.js"></script>
-<script src="<?=PATH_JS?>infinite-scroll.pkgd.min.js"></script>
 
 </body>
 </html>
