@@ -72,6 +72,7 @@
             Say Hello
           </h5>
           Email: contact@emilie-ngy.com <br>
+          Twitter : <a target="_blank" href="https://twitter.com/ngyemilie_">@ngyemilie_</a> <br>
           Instagram: <a target="_blank" href="https://www.instagram.com/ngyemilie/?hl=fr">ngyemilie</a>
         </div>
         <!-- /ALT CONTENT BOX -->
@@ -84,7 +85,8 @@
           <h5 class="alt-content-box-title font-alt">
             Où me rencontrer
           </h5>
-          Lyon
+          Lyon <br>
+          Actuellement, je ne me déplace pas encore dans toute la France, mais cela est prévu à partir de mars-avril 2022.
         </div>
         <!-- /ALT CONTENT BOX -->
 

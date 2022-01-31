@@ -22,7 +22,7 @@
 
 					<li><a href="?page=contact">Contact</a></li>
 
-					<li><a href="?page=tarifs">Tarifs</a></li>
+					<li><a href="?page=tarifs">Tarifs & Informations</a></li>
 
 					<li><a href="?page=avis">Avis</a></li>
 
@@ -100,7 +100,7 @@
 					<li><a href="../" title="Home">Accueil</a></li>
 					<li><a href="?page=about" title="About">A Propos</a></li>
 					<li><a href="?page=contact" title="Contact">Contact</a></li>
-					<li><a href="?page=tarifs" title="Tarifs">Tarifs</a></li>
+					<li><a href="?page=tarifs" title="Tarifs">Tarifs & Informations</a></li>
 					<li><a href="?page=avis" title="Avis">Avis</a></li>
 					<?php
 						if(isset($_SESSION['connect'])){

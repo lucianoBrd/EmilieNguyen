@@ -4,7 +4,7 @@
 <?php require_once(PATH_VIEWS.'menu.php');?>
 
 <!-- HERO -->
-<section id="hero" class="module-hero module-parallax module-full-height bg-light-30" data-background="assets/images/lyon.jpg">
+<section id="hero" class="module-hero module-parallax module-full-height bg-light-30" data-background="assets/images/home.jpg">
 
   <!-- HERO TEXT -->
   <div class="hero-caption">

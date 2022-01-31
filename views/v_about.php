@@ -4,7 +4,7 @@
 <?php require_once(PATH_VIEWS.'menu.php');?>
 
 <!-- HERO -->
-<section class="module module-parallax bg-light-30" data-background="assets/images/backstage3.jpg">
+<section class="module module-parallax bg-light-30" data-background="assets/images/about.jpg">
 
   <!-- HERO TEXT -->
   <div class="container">
@@ -12,7 +12,7 @@
     <div class="row">
       <div class="col-sm-12 text-center">
         <h1 class="mh-line-size-3 font-alt m-b-20">A Propos</h1>
-        <h5 class="mh-line-size-4 font-alt">Just passionate. Everything has beauty.</h5>
+        <h5 class="mh-line-size-4 font-alt">Think. Imagine. Create.</h5>
       </div>
     </div>
 
@@ -38,10 +38,19 @@
     <div class="row">
 
       <div class="col-sm-6 col-sm-offset-3">
-        <p>Je m’appelle Emilie Nguyen, je suis une jeune photographe lyonnaise.</p>
-        <p>Je suis photographe de portrait, de mode. Comme vous vous en doutez, la photographie est ma passion. Elle m’a permis d’échanger avec les gens et de diffuser ma vision.</p>
-        <p>C’est au travers de ce site que vous pourrez l’explorer.</p>
-        <blockquote><p>Just passionate. Everything has beauty.</p></blockquote>
+        <p>
+        Salut ! Je m’appelle Emilie. Je suis une photographe lyonnaise, spécialisée dans la photographie lifestyle et portrait. 
+        </p>
+        <p>
+        J’aimerais être là lors de vos moments, montrer l’invisible, faire ressortir les émotions et la personnalité de chacun. Être votre photographe, c’est capturer tout cela avec poésie et bienveillance. 
+        </p>
+        <p>
+        Au travers de mon site web, vous y trouverez les photos en accord avec ces valeurs et cette mission qui est devenue mienne. 
+        </p>
+        <p>
+        A bientôt ! 
+        </p>
+        <blockquote><p>Think. Imagine. Create.</p></blockquote>
         <p><a href="?page=contact" class="section-scroll">Me contacter →</a></p>
       </div>
 

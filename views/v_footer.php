@@ -9,6 +9,7 @@
 
 				<ul class="social-text-links font-alt text-center m-b-20">
 					<li><a target="_blank" href="https://www.instagram.com/ngyemilie/?hl=fr">Instagram</a></li>
+					<li><a target="_blank" href="https://twitter.com/ngyemilie_">Twitter</a></li>
 					<li><a target="_blank" href="https://www.youtube.com/channel/UC8Pc3ihnK4EiylePAoMKpyQ">Youtube</a></li>
 				</ul>
 

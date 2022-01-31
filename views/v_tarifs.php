@@ -11,7 +11,8 @@
 
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h1 class="mh-line-size-3 font-alt m-b-20">Tarifs</h1>
+        <h1 class="mh-line-size-3 font-alt m-b-20">Tarifs & Informations</h1>
+        <h5 class="mh-line-size-4 font-alt">Prestation - PARTICULIERS.</h5>
       </div>
     </div>
 
@@ -20,123 +21,6 @@
 
 </section>
 <!-- /HERO -->
-
-<!-- PARAGRAPH -->
-<section class="module">
-
-  <div class="container">
-
-    <!-- MODULE TITLE -->
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Informations</h2>
-      </div>
-    </div>
-    <!-- /MODULE TITLE -->
-
-    <div class="row">
-
-      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
-        <p>
-            Je n’ai aucun critère pour les shootings, mes séances sont ouvertes à tout le monde.
-            Donc, pas de panique, si tu n’as jamais fait de shooting, il n’y a aucun souci.
-            On prendra le temps d’essayer plein de choses différentes pour avoir le rendu que tu aimes.
-            Je suis là pour te mettre à l’aise, pour t’accompagner tout au long du shooting dans la bonne humeur !
-            Je suis également à ta disposition après le shooting si tu as besoin de conseils, ou avant le shooting pour toutes questions.
-        </p>
-
-      </div>
-
-    </div>
-
-    <!-- MODULE TITLE -->
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h2 class="module-title font-alt">Comment cela se passe ?</h2>
-      </div>
-    </div>
-    <!-- /MODULE TITLE -->
-
-    <div class="row">
-
-      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
-        <p>
-            Tout d’abord choisis la formule qu’il te convient le mieux, puis nous discuterons ensemble du déroulement du shooting (des projets, des thèmes, des lieux, du make up, des tenues etc.).
-            Plusieurs spots seront proposés lors du shooting.
-            Ensuite, nous fixerons ensemble une date et un horaire qui nous convienne.
-            Pour le paiement, si tu as un petit budget, ne t’inquiète pas, il est possible de payer en plusieurs fois sans frais.
-        </p>
-        <p>
-          À la fin du shooting, je ferai un tri où j’enlèverai les doublons, les photos floues etc., et je te les enverrai par e-mail pour que tu puisses choisir tranquillement chez toi tes photos préférées.
-          Puis je les retoucherai et je te les enverrai sous 2 semaines.
-          Si tu as besoin de conseil, je suis là pour t’aider et je peux même faire la sélection pour toi si tu en as envie !
-        </p>
-        <p>
-          <small>
-            (Pour des questions de sécurité, un acompte de 15% du prix du shooting te sera demandé avant le shooting.
-            À régler par virement bancaire, ou par Paypal)
-          </small>
-        </p>
-        <p>
-          Pour toute demande particulière de shooting, veuillez <a href="?page=contact">me contacter</a> pour un devis.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-<!-- /PARAGRAPH -->
-
-<?php
-  if($nbAvis > 0){
-?>
-<!-- TESTIMONIALS -->
-<section class="module module-parallax bg-light-30" data-background="assets/images/avis_t.jpg">
-
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-sm-6 col-sm-offset-3">
-
-        <!-- TESTIMONIALS CAROUSEL -->
-        <div class="owl-carousel slider-testimonials text-center">
-
-          <?php
-            foreach ($avisListe as $avis) {
-          ?>
-          <!-- SLIDE -->
-          <div class="item">
-            <h5 class="module-icon m-b-20">
-              <i class="ion-ios-chatboxes-outline"></i>
-            </h5>
-            <div class="font-serif m-b-20">
-              <?= $avis->getAvis() ?>
-            </div>
-            <div class="quote-author font-alt"><?= $avis->getFirstName().' '.$avis->getName() ?></div>
-          </div>
-          <!-- /SLIDE -->
-          <?php
-            }
-          ?>
-
-        </div>
-        <!-- /TESTIMONIALS CAROUSEL -->
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-<!-- /TESTIMONIALS -->
-<?php
-  }
-?>
 
 <!-- PRICING 3 COLUMNS -->
 <section class="module">
@@ -211,5 +95,168 @@
 
 </section>
 <!-- /PRICING 3 COLUMNS -->
+
+<!-- PARAGRAPH -->
+<section class="module">
+
+  <div class="container">
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Informations</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
+        <p>
+        Mes prestations sont ouvertes à tous. Si vous n’avez jamais fait de shootings, ce n’est pas un problème, je vous guiderai tout au long de la séance mais également en amont. Nous prendrons le temps d’échanger pour réaliser un projet qui vous plaise et qui vous corresponde.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Comment réserver un shooting ?</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
+        <p>
+        Vous pouvez réserver votre shooting par e-mail : <a href="?page=contact">ici</a> ou en passant par mon instagram <a target="_blank" href="https://www.instagram.com/ngyemilie/?hl=fr">https://www.instagram.com/ngyemilie/</a>
+        </p>
+        <p>
+        Choisissez la formule que vous souhaitez, puis nous discuterons ensemble des modalités du shooting (projet, idées, lieux, make-up, tenues etc.).
+        </p>
+        <p>
+          <small>
+          Pour toute demande particulière de shooting, veuillez <a href="?page=contact">me contacter</a> pour un devis.
+          </small>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Où et quand se déroule le shooting ?</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
+        <p>
+        Nous fixerons ensemble une date, un horaire et un lieu qui nous conviennent. Mes prestations sont valables dans tout Lyon. Actuellement, je ne me déplace pas encore dans toute la France, mais cela est prévu à partir de mars-avril 2022.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Et après le shooting ?</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
+        <p>
+        Après le shooting, les photos vous seront envoyées par e-mail afin que vous choisissiez les photos que vous préférez. Après sélection des photos, je vous enverrai les photos retouchées sous 2 à 3 semaines. 
+        </p>
+        <p>
+        Si vous avez besoin de conseils, je peux vous conseiller ou alors même réaliser la sélection pour vous.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- MODULE TITLE -->
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h2 class="module-title font-alt">Paiement</h2>
+      </div>
+    </div>
+    <!-- /MODULE TITLE -->
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
+        <p>
+        Pour des questions de sécurité, un acompte de 30% du montant de la séance est demandé.
+        </p>
+        <p>
+        Il est possible de payer en 2 fois sans frais.
+        </p>
+        <p><strong>Je reste à votre disposition pour tout renseignement complémentaire.</strong></p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /PARAGRAPH -->
+
+<?php
+  if($nbAvis > 0){
+?>
+<!-- TESTIMONIALS -->
+<section class="module module-parallax bg-light-30" data-background="assets/images/avis_t.jpg">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-6 col-sm-offset-3">
+
+        <!-- TESTIMONIALS CAROUSEL -->
+        <div class="owl-carousel slider-testimonials text-center">
+
+          <?php
+            foreach ($avisListe as $avis) {
+          ?>
+          <!-- SLIDE -->
+          <div class="item">
+            <h5 class="module-icon m-b-20">
+              <i class="ion-ios-chatboxes-outline"></i>
+            </h5>
+            <div class="font-serif m-b-20">
+              <?= $avis->getAvis() ?>
+            </div>
+            <div class="quote-author font-alt"><?= $avis->getFirstName().' '.$avis->getName() ?></div>
+          </div>
+          <!-- /SLIDE -->
+          <?php
+            }
+          ?>
+
+        </div>
+        <!-- /TESTIMONIALS CAROUSEL -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /TESTIMONIALS -->
+<?php
+  }
+?>
 
 <?php require_once(PATH_VIEWS.'footer.php');?>

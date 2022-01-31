@@ -3,7 +3,7 @@
 <?php require_once(PATH_VIEWS.'menu.php');?>
 
 <!-- HERO -->
-<section class="module module-parallax bg-light-30" data-background="assets/images/lyon.jpg">
+<section class="module module-parallax bg-light-30" data-background="assets/images/home.jpg">
 
   <!-- HERO TEXT -->
   <div class="container">
