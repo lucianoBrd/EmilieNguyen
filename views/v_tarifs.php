@@ -97,7 +97,7 @@
 <!-- /PRICING 3 COLUMNS -->
 
 <!-- PARAGRAPH -->
-<section class="module">
+<section class="module center" style="padding-top:20px;">
 
   <div class="container">
 
