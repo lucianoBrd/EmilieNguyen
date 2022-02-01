@@ -170,7 +170,7 @@ p, ol, ul, blockquote {
 	margin: 0 0 20px;
 }
 
-p {
+.center p {
 	text-align: center;
 }
 

@@ -23,7 +23,7 @@
 <!-- /HERO -->
 
 <!-- PARAGRAPH -->
-<section class="module">
+<section class="module center">
 
   <div class="container">
 

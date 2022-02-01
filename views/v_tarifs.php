@@ -23,7 +23,7 @@
 <!-- /HERO -->
 
 <!-- PRICING 3 COLUMNS -->
-<section class="module">
+<section class="module center">
 
   <div class="container">
 
