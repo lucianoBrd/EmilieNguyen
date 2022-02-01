@@ -79,7 +79,7 @@
 		if (mobileTest === true) {
 			$('.module-parallax').css({'background-attachment': 'scroll'});
 		} else {
-			$('#hero.module-parallax').parallax('50%', 0.2);
+			//$('#hero.module-parallax').parallax('50%', 0.2);
 		}
 
 		/* ---------------------------------------------- /*

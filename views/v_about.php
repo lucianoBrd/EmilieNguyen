@@ -4,7 +4,7 @@
 <?php require_once(PATH_VIEWS.'menu.php');?>
 
 <!-- HERO -->
-<section class="module module-parallax bg-light-30" data-background="assets/images/about.jpg">
+<section class="module module-parallax bg-light-30" data-background="assets/images/about.jpg" style="background-position: 50% 70%;">
 
   <!-- HERO TEXT -->
   <div class="container">
