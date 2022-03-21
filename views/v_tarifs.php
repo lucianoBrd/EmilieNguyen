@@ -157,7 +157,7 @@
 
       <div class="col-sm-6 col-sm-offset-3" id="tarifsinfo">
         <p>
-        Nous fixerons ensemble une date, un horaire et un lieu qui nous conviennent. Mes prestations sont valables dans tout Lyon. Actuellement, je ne me déplace pas encore dans toute la France, mais cela est prévu à partir de mars-avril 2022.
+        Nous fixerons ensemble une date, un horaire et un lieu qui nous conviennent. Mes prestations sont valables à Paris et à Lyon. Possibilité sur devis de me déplacer dans toute la France.
         </p>
       </div>
 
