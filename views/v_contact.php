@@ -85,8 +85,8 @@
           <h5 class="alt-content-box-title font-alt">
             Où me rencontrer
           </h5>
-          Lyon <br>
-          Actuellement, je ne me déplace pas encore dans toute la France, mais cela est prévu à partir de mars-avril 2022.
+          Lyon, Paris. <br>
+          Possibilité sur devis de me déplacer dans toute la France.
         </div>
         <!-- /ALT CONTENT BOX -->
 
