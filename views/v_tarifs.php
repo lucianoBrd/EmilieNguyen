@@ -64,7 +64,7 @@
         <div class="price-table best font-alt">
           <h4>Avancé - Make Up Artist</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>210</p>
+          <p class="price"><span>€</span>220</p>
           <ul class="price-details">
             <li>10 photos retouchées</li>
             <li>Et envoyées en HD + Make Up Artist</li>
@@ -79,7 +79,7 @@
         <div class="price-table font-alt">
           <h4>Basic - Make Up Artist</h4>
           <div class="borderline"></div>
-          <p class="price"><span>€</span>160</p>
+          <p class="price"><span>€</span>170</p>
           <ul class="price-details">
             <li>6 photos retouchées</li>
             <li>Et envoyées en HD + Make Up Artist</li>
